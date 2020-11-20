@@ -1,0 +1,129 @@
+{
+    "Combos": {
+        "Blueberry": [
+            "Wheat",
+            "Apple",
+            "Sugar", 
+            "Eggs",
+            ["Sugar", "Wheat"],
+            ["Eggs", "Wheat"],
+            ["Eggs", "Sugar"],
+            ["Eggs", "Sugar", "Wheat"]
+        ],
+
+        "Apple": [
+            "Wheat",
+            "Blueberry",
+            "Sugar",
+            "Eggs",
+            ["Sugar", "Wheat"],
+            ["Eggs", "Wheat"],
+            ["Eggs", "Sugar"],
+            ["Eggs", "Sugar", "Wheat"]
+        ],
+
+        "Sugar": [
+            "Wheat",
+            "Blueberry",
+            "Eggs",
+            "Apple",
+            "Rhubarb",
+            "Carrot",
+            ["Blueberry", "Eggs"],
+            ["Blueberry", "Wheat"],
+            ["Eggs", "Wheat"],
+            ["Blueberry", "Eggs", "Wheat"],
+            ["Apple", "Eggs"],
+            ["Apple", "Wheat"],
+            ["Apple", "Eggs", "Wheat"],
+            ["Eggs", "Rhubarb"],
+            ["Rhubarb", "Wheat"],
+            ["Eggs", "Rhubarb", "Wheat"],
+            ["Carrot", "Eggs"],
+            ["Carrot", "Wheat"],
+            ["Carrot", "Eggs", "Wheat"]
+        ],
+
+        "Carrot": [
+            "Wheat",
+            "Rhubarb",
+            "Eggs",
+            "Sugar",
+            ["Eggs", "Sugar"],
+            ["Eggs", "Wheat"],
+            ["Sugar", "Wheat"],
+            ["Eggs", "Sugar", "Wheat"]
+        ],
+
+        "Rhubarb": [
+            "Wheat",
+            "Carrot",
+            "Sugar",
+            "Eggs",
+            ["Eggs", "Sugar"],
+            ["Eggs", "Wheat"],
+            ["Sugar", "Wheat"],
+            ["Eggs", "Sugar" ,"Wheat"]
+        ],
+
+        "Eggs": [
+            "Wheat",
+            "Blueberry",
+            "Sugar",
+            "Apple",
+            "Rhubarb",
+            "Carrot",
+            ["Sugar", "Wheat"],
+            ["Blueberry", "Sugar"],
+            ["Blueberry", "Wheat"],
+            ["Blueberry", "Sugar", "Wheat"],
+            ["Apple", "Sugar"],
+            ["Apple", "Wheat"],
+            ["Apple", "Sugar", "Wheat"],
+            ["Rhubarb", "Sugar"],
+            ["Rhubarb", "Wheat"],
+            ["Rhubarb", "Sugar", "Wheat"],
+            ["Carrot", "Sugar"],
+            ["Carrot", "Wheat"],
+            ["Carrot", "Sugar", "Wheat"]
+        ],
+
+        "Wheat": [
+            "Eggs",
+            "Blueberry",
+            "Sugar",
+            "Apple",
+            "Rhubarb",
+            "Carrot",
+            ["Eggs", "Sugar"],
+            ["Blueberry", "Sugar"],
+            ["Blueberry", "Eggs"],
+            ["Blueberry", "Eggs", "Sugar"],
+            ["Apple", "Sugar"],
+            ["Apple", "Eggs"],
+            ["Apple", "Eggs", "Sugar"],
+            ["Rhubarb", "Sugar"],
+            ["Eggs", "Rhubarb"],
+            ["Eggs", "Rhubarb", "Sugar"],
+            ["Carrot", "Sugar"],
+            ["Carrot", "Eggs"],
+            ["Carrot", "Eggs", "Sugar"]
+        ]
+    },
+
+    "Recipes": {
+        "Blueberry_Tart": ["Blueberry", "Wheat"],
+        "Apple_Pie": ["Apple", "Wheat"],
+        "Shortbread": ["Sugar", "Wheat"],
+        "Carrot_Cake": ["Carrot", "Wheat"],
+        "Rhubarb_Pie": ["Rhubarb", "Wheat"],
+        "Bread": ["Eggs", "Wheat"],
+        "Fruit_Salad": ["Apple", "Blueberry"],
+        "Smoothie": ["Carrot", "Rhubarb"],
+        "Blueberry_Cupcake": ["Blueberry", "Eggs", "Sugar", "Wheat"],
+        "Apple_Crumble": ["Apple", "Eggs", "Sugar", "Wheat"],
+        "Sweet_Rhubarb_Pie": ["Eggs", "Rhubarb", "Sugar", "Wheat"],
+        "Carrot_Souffle": ["Carrot", "Eggs", "Sugar", "Wheat"],
+        "Cake": ["Eggs", "Sugar", "Wheat"]
+    }
+}
